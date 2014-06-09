@@ -1,0 +1,138 @@
+body {
+	background-color:#b0c4de;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #262061;
+	margin: 0px;
+	padding: 20px 10px 0px;
+}
+
+div{
+	background-color:#FFFFFF;
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	color: #262061;
+	margin-right:50px;
+	margin-left:50px;
+	padding: 20px 10px 0px;
+}
+
+table
+{
+	border-collapse:collapse;
+	width:100%;
+}
+table, td, th
+{
+	border: 1px solid black;
+}
+th
+{
+    font-weight: bold;
+	text-align: center;
+	font: 20px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #0F4580;
+    color: #E1EDFA;
+}
+td
+{
+	font: 16px Verdana, Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+tr:nth-child(odd) {
+    background-color: #C3D6EB;
+}
+td,th{
+	padding:10px;
+}
+
+.textfield {
+	font-size: 11px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	padding-left: 1px;
+}
+h1 {
+	/*color: #33F;*/
+	text-align: center;
+	color: #262061;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 32px Verdana, Arial, Helvetica, sans-serif;
+	border-bottom: 1px dashed #E6E8ED;
+}
+a {
+	color: #2D3954;
+	font-size: 16px;
+}
+a:hover {
+	/*color: #99CC00;*/
+	/*color: #9eceee;*/
+	color: #73096A;
+}
+.err {
+	text-align: center;
+	color: #FF0000;
+	font: bold 22px sans-serif;
+	/*text-decoration:underline;*/
+}
+
+.NO {
+	color: #FF0000;
+	font: bold 14px;
+	font-weight:bolder;
+}
+
+.YES {
+	color: #00CC00;
+	
+	font: bold 14px;
+}
+
+.ok {
+	color: #99CC00;
+}
+.header {
+	text-align: center;
+	font-weight: bolder;
+	/*color: #99CC00;*/
+	color:#99a5aa;
+	margin: 0px 0px 5px;
+	padding: 0px 0px 3px;
+	font: bold 14px Verdana, Arial, Helvetica, sans-serif;
+	
+}
+/*.type_1 { background-color: #D462FF C3FDB8; font: bold; color: black;}*/
+.type_1 { background-color: #fddbab; font: bold; color: black;}
+.type_2 { background-color: #AFC7C7; font: bold; color: black;}
+.type_3 { background-color: #FDEEF4; font: bold; color: black;}
+.type_4 { background-color: #c1c6fc; font: bold; color: black;}
+.type_5 { background-color: #dee9b5; font: bold; color: black;}
+.type_6 { background-color: #fbe4fd; font: bold; color: black;}
+.type_7 { background-color: #92C7C7; font: bold; color: black;}
+.comments{background-color:#FFC;}
+
+
+caption
+{
+	margin:auto;
+	font-weight:bold;
+	font-size:14px;
+}
+	
+.cpa0
+{
+	background-color:#e9ebec;
+}	
+.cpa1
+{
+	background-color:#99a5aa;
+	
+}
+.cpa2
+{
+	background-color:#262061;
+}
+.cpa3
+{
+	background-color:#5B8FFF;
+}

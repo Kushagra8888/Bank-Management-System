@@ -1,0 +1,21 @@
+$query = "insert into transactions (account_no, type, mode, amount, date) 
+			  values ('$account_no', 'credit', 'cash', 500, 30-5-2013);";
+$query = "insert into transactions (account_no, type, mode, amount, date) 
+			  values ('$account_no', 'debit', 'cheque', 200, 23-7-2013);";
+$query = "insert into transactions (account_no, type, mode, amount, date) 
+			  values ('$account_no', 'credit', 'cash', 1000, 9-11-2013);";
+$query = "insert into transactions (account_no, type, mode, amount, date) 
+			  values ('$account_no', 'credit', 'D.D', 300, 30-12-2013);";			  
+
+			  
+			
+insert into transactions (accountno, type, mode, amount, date) 
+			  values (2, 'credit', 'cash', 800, '2013-1-1');		
+insert into transactions (accountno, type, mode, amount, date) 
+			  values (2, 'debit', 'D.D', 500, '2013-2-23');	
+insert into transactions (accountno, type, mode, amount, date) 
+			  values (2, 'debit', 'cheque', 200, '2013-4-12');	
+insert into transactions (accountno, type, mode, amount, date) 
+			  values (2, 'credit', 'cash', 1000, '2013-7-7');	
+insert into transactions (accountno, type, mode, amount, date) 
+			  values (2, 'credit', 'cash', 100, '2013-12-31');				  
